@@ -130,6 +130,7 @@ import UIKit
 
             if let image = option.image {
                 let button = RichBarButtonItem(image: image, handler: handler)
+                    .tintColor(.black)
                 buttons.append(button)
             } else {
                 let title = option.title
